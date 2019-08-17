@@ -8,6 +8,7 @@ age = int(input('Сколько Вам лет: '))
 floor = input('Укажите Ваш пол: ')
 pets_name = input('Как зовут Вашего питмца: ')
 answer = int(input('любите играть в игры ? Да ведите 1 Нет ведите 0: '))
+
 if answer:
      if age >= 18:
          print('Можно начинать игру', name)
